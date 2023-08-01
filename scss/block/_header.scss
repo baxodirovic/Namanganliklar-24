@@ -1,4 +1,87 @@
 .header {
   width: 100%;
   background: $color-header-background;
+  border-top: 4px solid #295093;
+}
+
+.header__block {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.header__logo {
+  @include dis-c;
+  justify-content: space-between;
+}
+
+.header__logo--info {
+  @include dis-c;
+  gap: 20px;
+}
+
+.logojon__info {
+  color: #7A7A7A;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.logojon__info::first-letter {
+  color: $color-text-grey;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.header__logo--link {
+  @include dis-c;
+  gap: 20px;
+}
+
+.find__btn {
+  @include dis-f;
+  border-radius: 5px;
+  background: #FFF;
+  padding: 8px;
+}
+
+.language__btn {
+  @include dis-f;
+  gap: 5px;
+  border-radius: 5px;
+  background: #FFF;
+  padding: 8px;
+}
+
+.tg__btn {
+  @include dis-f;
+  gap: 5px;
+  width: 146px;
+  height: 40px;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #1E96C8 0%, #37AEE2 100%);
+  a {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  border: none;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  background: #FFF;
+  padding: 20px;
+}
+
+.header__list--item {
+  
 }
