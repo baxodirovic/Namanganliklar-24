@@ -125,6 +125,10 @@ ul {
   line-height: normal;
 }
 
+.header__navbar {
+  margin: 40px 0px 20px 0px;
+}
+
 .header__list {
   display: flex;
   align-items: center;
@@ -132,4 +136,75 @@ ul {
   gap: 50px;
   background: #FFF;
   padding: 20px;
+}
+
+.item__link {
+  color: #515151;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.covid__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.nrg__add {
+  width: 1200px;
+  height: 99px;
+}
+
+.covid__info {
+  display: flex;
+  align-items: center;
+}
+
+.covid__info--box {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.covid__info--text {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 230px;
+}
+
+.covid__info--text__red {
+  color: #DB0000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.covid__info--text__green {
+  color: #05B135;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.pink__span {
+  display: inline-block;
+  width: 2px;
+  height: 49px;
+  background: #EB5569;
+  margin-left: 40px;
+}
+
+.pinker__span {
+  display: inline-block;
+  width: 2px;
+  height: 49px;
+  background: #F4CCD1;
 }/*# sourceMappingURL=main.css.map */

@@ -73,6 +73,10 @@
   border: none;
 }
 
+.header__navbar {
+  margin: 40px 0px 20px 0px;
+}
+
 .header__list {
   display: flex;
   align-items: center;
@@ -80,6 +84,14 @@
   gap: 50px;
   background: #FFF;
   padding: 20px;
+}
+
+.item__link {
+  color: #515151;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .header__list--item {
