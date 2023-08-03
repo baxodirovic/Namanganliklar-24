@@ -41,6 +41,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  display: flex;
+  align-items: center;
 }
 
 .quarantine__notification {
@@ -78,6 +80,7 @@
   background: var(--ss, linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.90) 100%));
   border: none;
   padding: 8px;
+  cursor: pointer;
 }
 
 .quarantine__notification--btn:hover {

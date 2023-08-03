@@ -267,6 +267,8 @@ ul {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  display: flex;
+  align-items: center;
 }
 
 .quarantine__notification {
@@ -299,6 +301,7 @@ ul {
   background: var(--ss, linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 100%));
   border: none;
   padding: 8px;
+  cursor: pointer;
 }
 .quarantine__notification--btn a {
   color: #FFF;
@@ -314,4 +317,138 @@ ul {
 }
 .quarantine__notification--btn:hover a {
   color: #FE5C28;
+}
+
+.news__block {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+  gap: 20px;
+}
+
+.news__last {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.news__last--title {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-right: 585px;
+}
+
+.news__last--cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.news__last--card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.news__card--img {
+  width: 252px;
+  height: 143px;
+}
+
+.news__card--info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.news__card--title {
+  color: #202020;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 512px;
+}
+
+.news__card--text {
+  color: #434343;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 512px;
+}
+
+.more__info {
+  border-radius: 5px;
+  background: #295093;
+  border: none;
+  padding: 10px 32px;
+  cursor: pointer;
+}
+.more__info a {
+  color: #FFF;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.more__info:hover {
+  background: #FFF;
+  outline: 2px solid #295093;
+}
+.more__info:hover a {
+  color: #295093;
+}
+
+.news__popular {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.news__popular--most {
+  border-radius: 5px;
+  background: #F6F6F9;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.news__popular--title {
+  color: #202020;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.news__popular-text {
+  color: #202020;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 347px;
+}
+
+.green__line {
+  display: inline-flex;
+  width: 346px;
+  height: 4px;
+  background: #E4E4E4;
+}
+
+.ucell__add--img {
+  width: 386px;
+  height: 477px;
 }/*# sourceMappingURL=main.css.map */
