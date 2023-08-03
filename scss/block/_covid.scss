@@ -13,6 +13,11 @@
 .covid__info {
   display: flex;
   align-items: center;
+  height: 133px;
+  border-radius: 5px;
+  background: #F6F6F9;
+  padding: 0px 64px 0px 64px;
+  margin-top: 15px;
 }
 
 .covid__info--box {
@@ -21,7 +26,7 @@
   gap: 30px;
 }
 
-.covid__info--text {
+.covid__info--text__1 {
   color: #000;
   font-size: 20px;
   font-style: normal;
@@ -30,12 +35,21 @@
   width: 230px;
 }
 
+.covid__info--text__2 {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
 .covid__info--text__red {
   color: #DB0000;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  width: 180px;
 }
 
 .covid__info--text__green {
@@ -44,6 +58,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  width: 150px;
 }
 
 .pink__span {

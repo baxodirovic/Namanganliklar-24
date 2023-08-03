@@ -161,6 +161,11 @@ ul {
 .covid__info {
   display: flex;
   align-items: center;
+  height: 133px;
+  border-radius: 5px;
+  background: #F6F6F9;
+  padding: 0px 64px 0px 64px;
+  margin-top: 15px;
 }
 
 .covid__info--box {
@@ -169,7 +174,7 @@ ul {
   gap: 30px;
 }
 
-.covid__info--text {
+.covid__info--text__1 {
   color: #000;
   font-size: 20px;
   font-style: normal;
@@ -178,12 +183,21 @@ ul {
   width: 230px;
 }
 
+.covid__info--text__2 {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
 .covid__info--text__red {
   color: #DB0000;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  width: 180px;
 }
 
 .covid__info--text__green {
@@ -192,6 +206,7 @@ ul {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  width: 150px;
 }
 
 .pink__span {
@@ -207,4 +222,96 @@ ul {
   width: 2px;
   height: 49px;
   background: #F4CCD1;
+}
+
+.quarantine__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  margin-top: 20px;
+}
+
+.quarantine__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.quarantine__card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.quarantine__img {
+  width: 386px;
+  height: 190px;
+}
+
+.quarantine__text {
+  color: #202020;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 380px;
+}
+
+.quarantine__date {
+  color: #6B6D97;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.quarantine__notification {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 5px;
+  background: rgba(239, 186, 84, 0.18);
+  max-width: 1200px;
+  padding: 28px 20px 24px 34px;
+}
+
+.quarantine__notification--image {
+  width: 31px;
+  height: 35px;
+}
+
+.quarantine__notification--text {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-right: 220px;
+}
+
+.quarantine__notification--btn {
+  border-radius: 5px;
+  background: var(--ss, linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 100%));
+  border: none;
+  padding: 8px;
+}
+.quarantine__notification--btn a {
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.quarantine__notification--btn:hover {
+  background: #FFF;
+  outline: 2px solid #FE5C28;
+}
+.quarantine__notification--btn:hover a {
+  color: #FE5C28;
 }/*# sourceMappingURL=main.css.map */
