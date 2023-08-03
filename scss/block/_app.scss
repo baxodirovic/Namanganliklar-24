@@ -1,0 +1,48 @@
+.app__block {
+  @include dis-f;
+  margin-top: 40px;
+}
+
+.app__block--mini {
+  max-width: 1200px;
+  border-radius: 5px;
+  background: #F6F6F9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 33px;
+  padding: 40px 20px 0px 20px;
+}
+
+.app__img {
+  width: 236px;
+  height: 177px;
+}
+
+.app__info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.app__info--title {
+  color: #295093;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.app__info--text {
+  color: #333;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 515px;
+}
+
+.app__link--img {
+  width: 162.712px;
+  height: 50px;
+}
